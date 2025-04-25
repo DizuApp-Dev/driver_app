@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564167180471",
+    "project_id": "dizu-driver-bd4b8",
+    "storage_bucket": "dizu-driver-bd4b8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564167180471:android:8cc8a54a43845716f2cd32",
+        "android_client_info": {
+          "package_name": "com.dizu.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbllw3IXzS2OGwuDzB3EMb_SIHerEZqhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
