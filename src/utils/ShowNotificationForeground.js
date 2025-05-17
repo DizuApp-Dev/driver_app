@@ -76,6 +76,7 @@ const ShowNotificationForeground = props => {
         notification?.android?.sound == 'notification'
       ) {
         if (data && notificationType && notificationType != 'N') {
+          console.log(data,notificationType,'notificationTypenotificationType')
           actions.isModalVisibleForAcceptReject({
             isModalVisibleForAcceptReject: showhideNotificationModal(notificationType),
             notificationData: remoteMessage,

@@ -35,7 +35,18 @@ export default function AllinonePyments({ navigation, route }) {
     } else {
       transId = queryParams?.transaction_id;
     }
-    setTimeout(() => {
+    // setTimeout(() => {
+      if (
+        queryParams?.status == 200 ||
+        url.includes('paystack/completePurchase')
+      ) {
+
+        if (paramsData.action == 'wallet') {
+          moveToNewScreen(paramsData?.screenName)();
+
+          return;
+        }
+      }
       if (
         queryParams?.status == 200 ||
         url.includes('payment/checkoutSuccess')
@@ -55,7 +66,7 @@ export default function AllinonePyments({ navigation, route }) {
 
         }, 1000);
       }
-    }, 1500);
+    // }, 1500);
   };
 
 
